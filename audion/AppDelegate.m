@@ -7,39 +7,136 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
-
-@end
+#import "AUFonts.h"
+#import "AUColors.h"
+#import <Parse/Parse.h>
+#import <ParseCrashReporting/ParseCrashReporting.h>
 
 @implementation AppDelegate
 
+@synthesize locationManager;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self setUI];
+    
+    [ParseCrashReporting enable];
+    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"NbcTxzADHg3t8xDri92EoqCmKpTMU6dihPcjn4Xg"
+                  clientKey:@"lYKNokHUHzpzNsFecKJsxji3CsT5pOWFsL7VUzX7"];
+    
+    // [Optional] Track statistics around application opens.
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+
+    
     return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [self getLocation];
+    return YES;
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+- (void)setUI
+{
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    
+    
+    [[UINavigationBar appearance] setTitleTextAttributes: @{
+                                                            NSForegroundColorAttributeName: [UIColor whiteColor],
+                                                            NSFontAttributeName: [AUFonts interstateRegularWithSize:19.5]
+                                                            }];
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0 green:0.29 blue:0.45 alpha:1]];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"backArrow"]];
+    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"backArrow"]];
+    
+    [self setupTabBarItems];
+    
+    [[UITextField appearanceWhenContainedIn:[UISearchBar class], nil] setDefaultTextAttributes:@{
+                                                                                                 NSFontAttributeName: [AUFonts interstateLightWithSize:15.5],
+                                                                                                 }];
 }
 
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+- (void)getLocation
+{
+    self.locationManager = [[CLLocationManager alloc] init];
+    
+    self.locationManager.delegate = self;
+    self.locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
+    
+    [self.locationManager requestWhenInUseAuthorization];
+    [self.locationManager startUpdatingLocation];
 }
 
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error
+{
+    NSLog(@"didFailWithError: %@", error);
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
+{
+    _currentLocation = newLocation;
+}
+
+- (void)setupTabBarItems {
+    // Override point for customization after application launch.
+    
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UITabBar *tabBar = tabBarController.tabBar;
+    
+    // repeat for every tab, but increment the index each time
+    UITabBarItem *firstTab = [tabBar.items objectAtIndex:0];
+    
+    // also repeat for every tab
+    firstTab.image = [[UIImage imageNamed:@"home"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    firstTab.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
+    firstTab.title = nil;
+    firstTab.selectedImage = [[UIImage imageNamed:@"homeSelected"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    
+    UITabBarItem *secondTab = [tabBar.items objectAtIndex:1];
+    
+    // also repeat for every tab
+    secondTab.image = [[UIImage imageNamed:@"chart"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    secondTab.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
+    secondTab.title = nil;
+    secondTab.selectedImage = [[UIImage imageNamed:@"chartSelected"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    
+    UITabBarItem *thirdTab = [tabBar.items objectAtIndex:2];
+    
+    // also repeat for every tab
+    thirdTab.image = [[UIImage imageNamed:@"ninja"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    thirdTab.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
+    thirdTab.title = nil;
+    thirdTab.selectedImage = [[UIImage imageNamed:@"ninjaSelected"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    UITabBarItem *fourthTab = [tabBar.items objectAtIndex:3];
+    
+    // also repeat for every tab
+    fourthTab.image = [[UIImage imageNamed:@"me"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    fourthTab.imageInsets = UIEdgeInsetsMake(5, 0, -5, 0);
+    fourthTab.title = nil;
+    fourthTab.selectedImage = [[UIImage imageNamed:@"userSelected"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    UITabBarItem *fifthTab = [tabBar.items objectAtIndex:4];
+    
+    // also repeat for every tab
+    fifthTab.image = [[UIImage imageNamed:@"settings"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    fifthTab.imageInsets = UIEdgeInsetsMake(5, 0, -5, 0);
+    fifthTab.title = nil;
+    fifthTab.selectedImage = [[UIImage imageNamed:@"settingsSelected"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    // remove glow
+    [[UITabBar appearance] setSelectionIndicatorImage:[[UIImage alloc] init]];
+    
 }
 
 @end

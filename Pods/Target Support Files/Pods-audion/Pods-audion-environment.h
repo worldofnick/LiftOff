@@ -1,0 +1,74 @@
+
+// To check if a library is compiled with CocoaPods you
+// can use the `COCOAPODS` macro definition which is
+// defined in the xcconfigs so it is available in
+// headers also when they are imported in the client
+// project.
+
+
+// BFPaperTabBarController
+#define COCOAPODS_POD_AVAILABLE_BFPaperTabBarController
+#define COCOAPODS_VERSION_MAJOR_BFPaperTabBarController 2
+#define COCOAPODS_VERSION_MINOR_BFPaperTabBarController 1
+#define COCOAPODS_VERSION_PATCH_BFPaperTabBarController 10
+
+// DZNEmptyDataSet
+#define COCOAPODS_POD_AVAILABLE_DZNEmptyDataSet
+#define COCOAPODS_VERSION_MAJOR_DZNEmptyDataSet 1
+#define COCOAPODS_VERSION_MINOR_DZNEmptyDataSet 5
+#define COCOAPODS_VERSION_PATCH_DZNEmptyDataSet 2
+
+// EECircularMusicPlayerControl
+#define COCOAPODS_POD_AVAILABLE_EECircularMusicPlayerControl
+#define COCOAPODS_VERSION_MAJOR_EECircularMusicPlayerControl 0
+#define COCOAPODS_VERSION_MINOR_EECircularMusicPlayerControl 2
+#define COCOAPODS_VERSION_PATCH_EECircularMusicPlayerControl 1
+
+// MCSwipeTableViewCell
+#define COCOAPODS_POD_AVAILABLE_MCSwipeTableViewCell
+#define COCOAPODS_VERSION_MAJOR_MCSwipeTableViewCell 2
+#define COCOAPODS_VERSION_MINOR_MCSwipeTableViewCell 1
+#define COCOAPODS_VERSION_PATCH_MCSwipeTableViewCell 2
+
+// NSDate+TimeAgo
+#define COCOAPODS_POD_AVAILABLE_NSDate_TimeAgo
+#define COCOAPODS_VERSION_MAJOR_NSDate_TimeAgo 1
+#define COCOAPODS_VERSION_MINOR_NSDate_TimeAgo 0
+#define COCOAPODS_VERSION_PATCH_NSDate_TimeAgo 3
+
+// PHFComposeBarView
+#define COCOAPODS_POD_AVAILABLE_PHFComposeBarView
+#define COCOAPODS_VERSION_MAJOR_PHFComposeBarView 2
+#define COCOAPODS_VERSION_MINOR_PHFComposeBarView 0
+#define COCOAPODS_VERSION_PATCH_PHFComposeBarView 1
+
+// PHFDelegateChain
+#define COCOAPODS_POD_AVAILABLE_PHFDelegateChain
+#define COCOAPODS_VERSION_MAJOR_PHFDelegateChain 1
+#define COCOAPODS_VERSION_MINOR_PHFDelegateChain 0
+#define COCOAPODS_VERSION_PATCH_PHFDelegateChain 1
+
+// SSPullToRefresh
+#define COCOAPODS_POD_AVAILABLE_SSPullToRefresh
+#define COCOAPODS_VERSION_MAJOR_SSPullToRefresh 1
+#define COCOAPODS_VERSION_MINOR_SSPullToRefresh 2
+#define COCOAPODS_VERSION_PATCH_SSPullToRefresh 4
+
+// SVProgressHUD
+#define COCOAPODS_POD_AVAILABLE_SVProgressHUD
+#define COCOAPODS_VERSION_MAJOR_SVProgressHUD 1
+#define COCOAPODS_VERSION_MINOR_SVProgressHUD 1
+#define COCOAPODS_VERSION_PATCH_SVProgressHUD 3
+
+// SVPulsingAnnotationView
+#define COCOAPODS_POD_AVAILABLE_SVPulsingAnnotationView
+#define COCOAPODS_VERSION_MAJOR_SVPulsingAnnotationView 0
+#define COCOAPODS_VERSION_MINOR_SVPulsingAnnotationView 3
+#define COCOAPODS_VERSION_PATCH_SVPulsingAnnotationView 0
+
+// UIColor+BFPaperColors
+#define COCOAPODS_POD_AVAILABLE_UIColor_BFPaperColors
+#define COCOAPODS_VERSION_MAJOR_UIColor_BFPaperColors 1
+#define COCOAPODS_VERSION_MINOR_UIColor_BFPaperColors 7
+#define COCOAPODS_VERSION_PATCH_UIColor_BFPaperColors 1
+

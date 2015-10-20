@@ -1,0 +1,6 @@
+#include "Pods-audion-PHFComposeBarView.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/PHFComposeBarView" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BFPaperTabBarController" "${PODS_ROOT}/Headers/Public/DZNEmptyDataSet" "${PODS_ROOT}/Headers/Public/EECircularMusicPlayerControl" "${PODS_ROOT}/Headers/Public/MCSwipeTableViewCell" "${PODS_ROOT}/Headers/Public/NSDate+TimeAgo" "${PODS_ROOT}/Headers/Public/PHFComposeBarView" "${PODS_ROOT}/Headers/Public/PHFDelegateChain" "${PODS_ROOT}/Headers/Public/SSPullToRefresh" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/SVPulsingAnnotationView" "${PODS_ROOT}/Headers/Public/UIColor+BFPaperColors"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

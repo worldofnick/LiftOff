@@ -1,0 +1,1 @@
+PODS_AUDION_SVPULSINGANNOTATIONVIEW_OTHER_LDFLAGS = -framework "MapKit" -framework "QuartzCore"

@@ -1,0 +1,20 @@
+[
+ {
+ "text" : "Welcome to LiftOff.",
+ "image" : "swipe",
+ },
+ {
+ "text" : "Tap your recently played tracks to share them with people around you.",
+ "image" : "tut1",
+ },
+ {
+ "text" : "Swipe left to upvote a track",
+ "image" : "tut2",
+ }
+ ,
+ {
+ "text" : "Swipe right to downvote a track",
+ "image" : "tut3",
+ "button" : "Let's go!"
+ }
+]

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E17e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Interstate-Light.ttf">
+            <string>Interstate-Light</string>
+            <string>Interstate-Light</string>
+            <string>Interstate-Light</string>
+            <string>Interstate-Light</string>
+            <string>Interstate-Light</string>
+            <string>Interstate-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="headerCell" rowHeight="165" id="0cn-Bp-yRy" customClass="AUHeaderTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0cn-Bp-yRy" id="NzB-dS-Opx">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noArtwork" translatesAutoresizingMaskIntoConstraints="NO" id="bpf-9i-iyI">
+                        <rect key="frame" x="8" y="13" width="120" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="hHE-yf-ibM"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trilogy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLu-Iv-RwK">
+                        <rect key="frame" x="139" y="60" width="157" height="26"/>
+                        <fontDescription key="fontDescription" name="Interstate-Light" family="InterstateLight" pointSize="19.5"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Weeknd" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PnD-vS-PcE">
+                        <rect key="frame" x="139" y="94" width="157" height="26"/>
+                        <fontDescription key="fontDescription" name="Interstate-Light" family="InterstateLight" pointSize="19.5"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11m" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TI4-dF-0IJ">
+                        <rect key="frame" x="8" y="141" width="74" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="hUz-Hj-pBk"/>
+                            <constraint firstAttribute="width" constant="74" id="s8n-Ju-hgf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Interstate-Light" family="InterstateLight" pointSize="13.5"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="210 votes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xey-Pm-wXy">
+                        <rect key="frame" x="123" y="141" width="74" height="21"/>
+                        <fontDescription key="fontDescription" name="Interstate-Light" family="InterstateLight" pointSize="13.5"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 replies" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZEF-zC-v1N">
+                        <rect key="frame" x="238" y="141" width="74" height="21"/>
+                        <fontDescription key="fontDescription" name="Interstate-Light" family="InterstateLight" pointSize="13.5"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rolling Stone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odN-dO-Q2d">
+                        <rect key="frame" x="139" y="26" width="157" height="26"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="Gnu-Ey-uqh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Interstate-Light" family="InterstateLight" pointSize="19.5"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="TI4-dF-0IJ" firstAttribute="baseline" secondItem="xey-Pm-wXy" secondAttribute="baseline" id="0Af-Ag-4Nl"/>
+                    <constraint firstItem="yLu-Iv-RwK" firstAttribute="top" secondItem="odN-dO-Q2d" secondAttribute="bottom" constant="8" id="4TO-9w-oXy"/>
+                    <constraint firstItem="bpf-9i-iyI" firstAttribute="top" secondItem="NzB-dS-Opx" secondAttribute="topMargin" constant="5" id="Ayd-fn-F1f"/>
+                    <constraint firstItem="odN-dO-Q2d" firstAttribute="leading" secondItem="bpf-9i-iyI" secondAttribute="trailing" constant="11" id="DZ3-eh-JCK"/>
+                    <constraint firstItem="bpf-9i-iyI" firstAttribute="leading" secondItem="NzB-dS-Opx" secondAttribute="leadingMargin" id="Ddl-rV-RGN"/>
+                    <constraint firstItem="bpf-9i-iyI" firstAttribute="leading" secondItem="TI4-dF-0IJ" secondAttribute="leading" id="EWq-MB-Y5h"/>
+                    <constraint firstItem="ZEF-zC-v1N" firstAttribute="baseline" secondItem="xey-Pm-wXy" secondAttribute="baseline" id="G6n-RY-MLV"/>
+                    <constraint firstItem="xey-Pm-wXy" firstAttribute="leading" secondItem="TI4-dF-0IJ" secondAttribute="trailing" constant="41" id="G7B-0S-n1q"/>
+                    <constraint firstItem="TI4-dF-0IJ" firstAttribute="top" secondItem="bpf-9i-iyI" secondAttribute="bottom" constant="8" symbolic="YES" id="Idf-ID-tf9"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="odN-dO-Q2d" secondAttribute="trailing" constant="16" id="Khb-Ds-S1d"/>
+                    <constraint firstItem="PnD-vS-PcE" firstAttribute="trailing" secondItem="ZEF-zC-v1N" secondAttribute="trailing" constant="-16" id="NXQ-1d-rv4"/>
+                    <constraint firstItem="xey-Pm-wXy" firstAttribute="centerX" secondItem="NzB-dS-Opx" secondAttribute="centerX" id="XF6-83-Wzv"/>
+                    <constraint firstItem="odN-dO-Q2d" firstAttribute="leading" secondItem="yLu-Iv-RwK" secondAttribute="leading" id="XV8-5N-8N0"/>
+                    <constraint firstItem="TI4-dF-0IJ" firstAttribute="firstBaseline" secondItem="xey-Pm-wXy" secondAttribute="firstBaseline" id="ahH-oy-GEC"/>
+                    <constraint firstItem="xey-Pm-wXy" firstAttribute="firstBaseline" secondItem="ZEF-zC-v1N" secondAttribute="firstBaseline" id="bWW-6x-mz9"/>
+                    <constraint firstItem="ZEF-zC-v1N" firstAttribute="top" secondItem="PnD-vS-PcE" secondAttribute="bottom" constant="21" id="boe-2r-m52"/>
+                    <constraint firstItem="odN-dO-Q2d" firstAttribute="top" secondItem="NzB-dS-Opx" secondAttribute="topMargin" constant="18" id="cSR-O3-CsA"/>
+                    <constraint firstItem="bpf-9i-iyI" firstAttribute="centerY" secondItem="yLu-Iv-RwK" secondAttribute="centerY" id="cgi-Jy-1w5"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="TI4-dF-0IJ" secondAttribute="bottom" constant="-5.5" id="goo-Wu-Ygk"/>
+                    <constraint firstItem="yLu-Iv-RwK" firstAttribute="trailing" secondItem="PnD-vS-PcE" secondAttribute="trailing" id="hYX-MX-IRY"/>
+                    <constraint firstItem="ZEF-zC-v1N" firstAttribute="leading" secondItem="xey-Pm-wXy" secondAttribute="trailing" constant="41" id="j0x-9f-ggY"/>
+                    <constraint firstItem="yLu-Iv-RwK" firstAttribute="leading" secondItem="PnD-vS-PcE" secondAttribute="leading" id="kGQ-CU-mX3"/>
+                    <constraint firstItem="yLu-Iv-RwK" firstAttribute="trailing" secondItem="odN-dO-Q2d" secondAttribute="trailing" id="mVB-Tt-Kt1"/>
+                    <constraint firstItem="PnD-vS-PcE" firstAttribute="top" secondItem="yLu-Iv-RwK" secondAttribute="bottom" constant="8" id="zcc-zQ-8Jo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.97647058823529409" green="0.98039215686274506" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="albumImageView" destination="bpf-9i-iyI" id="1kP-Wb-25m"/>
+                <outlet property="albumTitleLabel" destination="yLu-Iv-RwK" id="vWl-RL-sds"/>
+                <outlet property="artistLabel" destination="PnD-vS-PcE" id="cEy-Gq-W3R"/>
+                <outlet property="repliesLabel" destination="ZEF-zC-v1N" id="GHC-zZ-RZi"/>
+                <outlet property="timeLabel" destination="TI4-dF-0IJ" id="6bn-bk-gzM"/>
+                <outlet property="titleLabel" destination="odN-dO-Q2d" id="UPr-jb-1Ct"/>
+                <outlet property="votesLabel" destination="xey-Pm-wXy" id="X0L-ud-Aj4"/>
+            </connections>
+            <point key="canvasLocation" x="1036" y="633.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="noArtwork" width="600" height="600"/>
+    </resources>
+</document>

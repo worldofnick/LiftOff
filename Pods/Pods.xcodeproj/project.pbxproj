@@ -1,0 +1,1881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FAB10833F83C16C0BBE5774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6446FFCD2E4B4817738BCC11 /* UIKit.framework */; };
+		1756BD7DE25C7687711DE2FC /* Pods-audion-DZNEmptyDataSet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91992EF44DF8FD7175F92CB7 /* Pods-audion-DZNEmptyDataSet-dummy.m */; };
+		1BCC800A432F83BB8D0838FD /* Pods-audion-BFPaperTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AC51C0DCCB9EFEBE76639 /* Pods-audion-BFPaperTabBarController-dummy.m */; };
+		1BE35E0DFE791C18242A4CAE /* NSDate+TimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D2144423A51B000F2929EF /* NSDate+TimeAgo.h */; };
+		1F8EA3AB30AF30FA6805C029 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4482B28AD44943AC8EE4BB8 /* Foundation.framework */; };
+		204FF225F6B34E3427F1A258 /* PHFDelegateChain.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC55B3C3ACBFE278AB66616 /* PHFDelegateChain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2223D6B026932C50EEC2927B /* PHFComposeBarView_Button.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA39129B665BE7251B99FB5 /* PHFComposeBarView_Button.h */; };
+		23E6D0D3E3AB46D0588AC077 /* Pods-audion-EECircularMusicPlayerControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 266B9A7415C0D3CFC281C306 /* Pods-audion-EECircularMusicPlayerControl-dummy.m */; };
+		2424EC40311603218E38B664 /* MCSwipeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0C905A19E88E2DBD0EB3BA /* MCSwipeTableViewCell.h */; };
+		2AD14BFF6E5999FE835A6C33 /* BFPaperTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = E28105345DC76183117BD65C /* BFPaperTabBarController.h */; };
+		2E2CBC2C384FC72F2AF36AD6 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53125FA4D0480E9F41B216F6 /* SVIndefiniteAnimatedView.m */; };
+		2EBD7725AD7049205046CD20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4482B28AD44943AC8EE4BB8 /* Foundation.framework */; };
+		30346144D7F45C191063B252 /* Pods-audion-MCSwipeTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3A90E272249056FF3715B4 /* Pods-audion-MCSwipeTableViewCell-dummy.m */; };
+		3395A0C27DEBA19E8CFA97A3 /* PHFDelegateChain.h in Headers */ = {isa = PBXBuildFile; fileRef = E36303C8ED514EE0E33510B0 /* PHFDelegateChain.h */; };
+		410689B9A45642025494B011 /* PHFComposeBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B40DDB62AAC7F3B42B67472 /* PHFComposeBarView.m */; };
+		415EA3466C0C84A84E0E513C /* PHFComposeBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 850A7289562FAE4FAD8A5F0F /* PHFComposeBarView.h */; };
+		42AE3F271AE60C5432251226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4482B28AD44943AC8EE4BB8 /* Foundation.framework */; };
+		43DF27149AB268CD263ECD46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4482B28AD44943AC8EE4BB8 /* Foundation.framework */; };
+		61966E2B7D6B707B5D8F53BA /* Pods-audion-SVPulsingAnnotationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CF8FD7F1A2121AFB50D793 /* Pods-audion-SVPulsingAnnotationView-dummy.m */; };
+		61E9B8EF660BE49898F3FFBE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D45425507B04959E9F03FC8 /* MapKit.framework */; };
+		642740525F32F161804F0BC1 /* EECircularMusicPlayerDACircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D235FA128EB79430A30011 /* EECircularMusicPlayerDACircularProgressView.h */; };
+		7026D634843B63931E70F761 /* Pods-audion-SSPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE966693F357BC78E23095B /* Pods-audion-SSPullToRefresh-dummy.m */; };
+		71724A93B9A73FA8B2F015E4 /* PHFComposeBarView_TextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 82079FDEB83960481FEBC184 /* PHFComposeBarView_TextView.h */; };
+		722B53E80ED52AD92CB55D0B /* PHFComposeBarView_Button.m in Sources */ = {isa = PBXBuildFile; fileRef = E3741EFFA47B04FC21A0C812 /* PHFComposeBarView_Button.m */; };
+		7296D3AD99CE67C98EAD1478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4482B28AD44943AC8EE4BB8 /* Foundation.framework */; };
+		755A2B297A46A503D203A244 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AE6F0148D7DF2A21E099A8 /* SVIndefiniteAnimatedView.h */; };
+		7CF14E8506A73574C8F99AED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4482B28AD44943AC8EE4BB8 /* Foundation.framework */; };
+		7FEC98A2ACB1E8F0B5685D57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4482B28AD44943AC8EE4BB8 /* Foundation.framework */; };
+		864CE79F22AF9FF831129844 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A21673105D6B6FB39639EDC /* QuartzCore.framework */; };
+		930DD70060772A0AC2487712 /* SSPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = F68FD9F04AD66C6E9FEDD160 /* SSPullToRefreshView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9654A07A8C2BACDE41955A73 /* SSPullToRefreshSimpleContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 625783FC18499E76ADF1D2BD /* SSPullToRefreshSimpleContentView.h */; };
+		96BDA909D2A4A7BBA186BED3 /* SSPullToRefreshSimpleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4159DC1DFE08CBD45532C /* SSPullToRefreshSimpleContentView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9CA65780DADA9F3A96D34269 /* PHFComposeBarView_TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D899D39016874647623222B6 /* PHFComposeBarView_TextView.m */; };
+		9CEF3C01B1C81DD09FE735EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4482B28AD44943AC8EE4BB8 /* Foundation.framework */; };
+		9E4CF25922AA9E88EE096F6C /* MCSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8B5D9093C0A67CB3328AC5 /* MCSwipeTableViewCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9F4CF94E530AF1BE6499E183 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E8123E70E26CD9EDBB7050 /* NSDate+TimeAgo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A084E3062300BABE75E0655A /* Pods-audion-SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9FA37FC2CFA06101932457 /* Pods-audion-SVProgressHUD-dummy.m */; };
+		A49EBF50AF061CF8BF8BE287 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 29507DB806254B7CA3E4BE63 /* UIScrollView+EmptyDataSet.m */; };
+		A541BE84F184B80D10DC11B7 /* Pods-audion-NSDate+TimeAgo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEC74FBC484ED49BE921BEC /* Pods-audion-NSDate+TimeAgo-dummy.m */; };
+		B079237BE0D61259A1E58EEA /* EECircularMusicPlayerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5BB470065B4D69C8A908E4 /* EECircularMusicPlayerControl.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B2D8D68FA7CBFB049C110355 /* Pods-audion-PHFComposeBarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C23021A8E961845460BD20 /* Pods-audion-PHFComposeBarView-dummy.m */; };
+		B3943D2DAFF1A9E61C78254C /* EECircularMusicPlayerDACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DCEFE3457C2EFB75486234 /* EECircularMusicPlayerDACircularProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B6EF563A06565D55614EB910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4482B28AD44943AC8EE4BB8 /* Foundation.framework */; };
+		BD17768CAA691BF80919A1E9 /* SVPulsingAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3614E1E84A198DC16A0C4A5C /* SVPulsingAnnotationView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BEB7F44C8D2D4E9C25208821 /* Pods-audion-UIColor+BFPaperColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BACF57AB9CD989768E1C86F /* Pods-audion-UIColor+BFPaperColors-dummy.m */; };
+		C2F8BD53A100BF7EF337E9DB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A21673105D6B6FB39639EDC /* QuartzCore.framework */; };
+		C4B456EFF6DA055DD9C03397 /* EECircularMusicPlayerControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBC3FC376ADDE847C553B74 /* EECircularMusicPlayerControl.h */; };
+		C53FD0CC1BDDE07D5E017887 /* SSPullToRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F0CF79EDAEDBD63DE1851F /* SSPullToRefreshView.h */; };
+		CA83B6CE7D158F84719237EE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A21673105D6B6FB39639EDC /* QuartzCore.framework */; };
+		CDDDF2F61FFF47369CDB60D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80D02B8D5C7AB106E1EFC7E /* CoreGraphics.framework */; };
+		D3A1659869EC0DA005E68745 /* SSPullToRefreshDefaultContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B470C05B101A68C8B362B /* SSPullToRefreshDefaultContentView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D5E2D69DD37E7C85F14E97B8 /* Pods-audion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9D57D61A8ACE96F4262DEF /* Pods-audion-dummy.m */; };
+		D79E0BD0B64A887075234E5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4482B28AD44943AC8EE4BB8 /* Foundation.framework */; };
+		D8D17888D9FE2F159D3CF3C4 /* BFPaperTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42433EFCE490C6CE69AC203 /* BFPaperTabBarController.m */; };
+		DA271481DB62B273CD15576B /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F636E9E933B5A7941E6239D /* SVProgressHUD.h */; };
+		DF3DF270F4E88B3C4EE266B5 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = E962B4A0182E9B0EE7CD80BF /* UIScrollView+EmptyDataSet.h */; };
+		E8CDCE11CDB62238529DE459 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4482B28AD44943AC8EE4BB8 /* Foundation.framework */; };
+		E9C8247B0C032456901291F0 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB5B7DB76C3BB5C0B8711DE /* UIColor+BFPaperColors.m */; };
+		EA29FDA536095420F1F9A4A1 /* UIColor+BFPaperColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FEDEFE82BD3C8A57941E51E /* UIColor+BFPaperColors.h */; };
+		ED68EEE3D9FBA0A660FE0D48 /* SSPullToRefreshDefaultContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 39DA4738223F114B006C0739 /* SSPullToRefreshDefaultContentView.h */; };
+		EF6CCF991C9A1F143D350109 /* Pods-audion-PHFDelegateChain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA2991680CBA4361D7A583 /* Pods-audion-PHFDelegateChain-dummy.m */; };
+		EFEB8D4022E245D10C08143E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 775944EBFAE3C69FB089EF93 /* SVProgressHUD.m */; };
+		FB9490768CD86DC33CA15F69 /* SSPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F98C59E8F134A27F87542D1 /* SSPullToRefresh.h */; };
+		FBF0BD1A173981E2C32CAB77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4482B28AD44943AC8EE4BB8 /* Foundation.framework */; };
+		FED63297D604BE3F8FAD15FC /* SVPulsingAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = CAEADB1F0FF952A4072718FE /* SVPulsingAnnotationView.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2634B31A090DED85E7565B67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE80847484ECAFD83D97D0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A354C1F9649573B8255002D9;
+			remoteInfo = "Pods-audion-PHFDelegateChain";
+		};
+		2830CA3BA897CA6B1C7B1DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE80847484ECAFD83D97D0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A5B65D029B4551506BA0F6C;
+			remoteInfo = "Pods-audion-NSDate+TimeAgo";
+		};
+		3B3B0F42051572E774458DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE80847484ECAFD83D97D0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A354C1F9649573B8255002D9;
+			remoteInfo = "Pods-audion-PHFDelegateChain";
+		};
+		4B703D3FCB33CD84B436CC35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE80847484ECAFD83D97D0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94D4975CB8644676D67F7DA;
+			remoteInfo = "Pods-audion-BFPaperTabBarController";
+		};
+		805F075491DDE1A7985D7BB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE80847484ECAFD83D97D0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6CB07C8999F746DDD77B68D;
+			remoteInfo = "Pods-audion-SVPulsingAnnotationView";
+		};
+		ABEAF143E02BC0D5B0F14D39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE80847484ECAFD83D97D0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D49341A797DAA9F18ADEF74;
+			remoteInfo = "Pods-audion-UIColor+BFPaperColors";
+		};
+		ADABF4A93C33A6C6F33DC882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE80847484ECAFD83D97D0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 194C776DAFAE50C19AC807F9;
+			remoteInfo = "Pods-audion-EECircularMusicPlayerControl";
+		};
+		B1B5A8D5D3EAFC63C724DE2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE80847484ECAFD83D97D0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37A101D95D70749029B975CA;
+			remoteInfo = "Pods-audion-MCSwipeTableViewCell";
+		};
+		BA6F2F21D1F9BC988655E292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE80847484ECAFD83D97D0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2BDA76E0DE82D6527644FB6;
+			remoteInfo = "Pods-audion-SSPullToRefresh";
+		};
+		CB2702FFA97A710F4E2EE7EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE80847484ECAFD83D97D0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D49341A797DAA9F18ADEF74;
+			remoteInfo = "Pods-audion-UIColor+BFPaperColors";
+		};
+		CB4990D3AA5B9771DCF66493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE80847484ECAFD83D97D0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891875F5C248B79AF879D405;
+			remoteInfo = "Pods-audion-DZNEmptyDataSet";
+		};
+		D410A00429752D979D070C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE80847484ECAFD83D97D0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AF3567904B9AB51516AEA8A;
+			remoteInfo = "Pods-audion-SVProgressHUD";
+		};
+		FE2C79E48E8753DC1D2A9263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE80847484ECAFD83D97D0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF9E8628CD269DB2156A0223;
+			remoteInfo = "Pods-audion-PHFComposeBarView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01742CA0D7FD330A7F711CF5 /* libPods-audion-EECircularMusicPlayerControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-audion-EECircularMusicPlayerControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		020F94DAF5CE297D0A659BB7 /* libPods-audion-SVPulsingAnnotationView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-audion-SVPulsingAnnotationView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E8123E70E26CD9EDBB7050 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
+		0447E811CDAFA47F411BFCCC /* Pods-audion-DZNEmptyDataSet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-DZNEmptyDataSet.xcconfig"; sourceTree = "<group>"; };
+		06687E7894C15DF10FD8CF02 /* Pods-audion-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-audion-environment.h"; sourceTree = "<group>"; };
+		06D235FA128EB79430A30011 /* EECircularMusicPlayerDACircularProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EECircularMusicPlayerDACircularProgressView.h; path = EECircularMusicPlayerControl/DACircularProgress/EECircularMusicPlayerDACircularProgressView.h; sourceTree = "<group>"; };
+		087677E3E3D82A018194B7CF /* Pods-audion-BFPaperTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-audion-BFPaperTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		0FE4159DC1DFE08CBD45532C /* SSPullToRefreshSimpleContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshSimpleContentView.m; path = SSPullToRefresh/SSPullToRefreshSimpleContentView.m; sourceTree = "<group>"; };
+		169F1AAB0D9C1262392DA155 /* NSDateTimeAgo.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NSDateTimeAgo.bundle; sourceTree = "<group>"; };
+		186CF8760EF95024FCF01F44 /* Pods-audion-SVPulsingAnnotationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-audion-SVPulsingAnnotationView-prefix.pch"; sourceTree = "<group>"; };
+		18D2144423A51B000F2929EF /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		1BCB1AECCF4E4ED282F110FB /* Pods-audion-PHFDelegateChain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-audion-PHFDelegateChain-prefix.pch"; sourceTree = "<group>"; };
+		1C5BB470065B4D69C8A908E4 /* EECircularMusicPlayerControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EECircularMusicPlayerControl.m; path = EECircularMusicPlayerControl/EECircularMusicPlayerControl.m; sourceTree = "<group>"; };
+		1D8B5D9093C0A67CB3328AC5 /* MCSwipeTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MCSwipeTableViewCell.m; path = MCSwipeTableViewCell/MCSwipeTableViewCell.m; sourceTree = "<group>"; };
+		1D9FA37FC2CFA06101932457 /* Pods-audion-SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-audion-SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		1DC354239BB509E520DC40C8 /* Pods-audion-DZNEmptyDataSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-audion-DZNEmptyDataSet-prefix.pch"; sourceTree = "<group>"; };
+		1EE966693F357BC78E23095B /* Pods-audion-SSPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-audion-SSPullToRefresh-dummy.m"; sourceTree = "<group>"; };
+		2110ED6B0EFA7ADEC1E1C62B /* Pods-audion-EECircularMusicPlayerControl-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-EECircularMusicPlayerControl-Private.xcconfig"; sourceTree = "<group>"; };
+		266B9A7415C0D3CFC281C306 /* Pods-audion-EECircularMusicPlayerControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-audion-EECircularMusicPlayerControl-dummy.m"; sourceTree = "<group>"; };
+		29507DB806254B7CA3E4BE63 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Source/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		3096AF9BE9A793E35E8E72FD /* libPods-audion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-audion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DCEFE3457C2EFB75486234 /* EECircularMusicPlayerDACircularProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EECircularMusicPlayerDACircularProgressView.m; path = EECircularMusicPlayerControl/DACircularProgress/EECircularMusicPlayerDACircularProgressView.m; sourceTree = "<group>"; };
+		3614E1E84A198DC16A0C4A5C /* SVPulsingAnnotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVPulsingAnnotationView.m; path = SVPulsingAnnotationView/SVPulsingAnnotationView.m; sourceTree = "<group>"; };
+		38054A8B563714996DBDD75D /* Pods-audion-MCSwipeTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-audion-MCSwipeTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		39DA4738223F114B006C0739 /* SSPullToRefreshDefaultContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshDefaultContentView.h; path = SSPullToRefresh/SSPullToRefreshDefaultContentView.h; sourceTree = "<group>"; };
+		41F8BD2ED634696DD4E4F8FB /* Pods-audion-SVPulsingAnnotationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-SVPulsingAnnotationView.xcconfig"; sourceTree = "<group>"; };
+		474FAA814E3EA0B7393C25CA /* libPods-audion-PHFComposeBarView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-audion-PHFComposeBarView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE95CF81400B5EDB02E8B6D /* Pods-audion-UIColor+BFPaperColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-UIColor+BFPaperColors.xcconfig"; sourceTree = "<group>"; };
+		4F636E9E933B5A7941E6239D /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		4FEDEFE82BD3C8A57941E51E /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BFPaperColors.h"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
+		50D5476C1A9F03C51935E683 /* Pods-audion-UIColor+BFPaperColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-audion-UIColor+BFPaperColors-prefix.pch"; sourceTree = "<group>"; };
+		53125FA4D0480E9F41B216F6 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		564AE53D4CCC0E19BF4CEE6D /* Pods-audion-PHFDelegateChain-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-PHFDelegateChain-Private.xcconfig"; sourceTree = "<group>"; };
+		564C75381BF41143BBF11B72 /* Pods-audion-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-audion-acknowledgements.plist"; sourceTree = "<group>"; };
+		61979E2C426FCE472811A76D /* Pods-audion-SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		61F0CF79EDAEDBD63DE1851F /* SSPullToRefreshView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshView.h; path = SSPullToRefresh/SSPullToRefreshView.h; sourceTree = "<group>"; };
+		625783FC18499E76ADF1D2BD /* SSPullToRefreshSimpleContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshSimpleContentView.h; path = SSPullToRefresh/SSPullToRefreshSimpleContentView.h; sourceTree = "<group>"; };
+		6446FFCD2E4B4817738BCC11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6EDC5B2F467CE7C9F1A5AD64 /* libPods-audion-PHFDelegateChain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-audion-PHFDelegateChain.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F98C59E8F134A27F87542D1 /* SSPullToRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefresh.h; path = SSPullToRefresh/SSPullToRefresh.h; sourceTree = "<group>"; };
+		74F8C8ACC8202C85353BCA23 /* Pods-audion-SSPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-audion-SSPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
+		775944EBFAE3C69FB089EF93 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		778A0D206A14CFE7B39229FD /* libPods-audion-SSPullToRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-audion-SSPullToRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A21673105D6B6FB39639EDC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7AD948E239BC9D3BBA556012 /* Pods-audion-BFPaperTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-BFPaperTabBarController.xcconfig"; sourceTree = "<group>"; };
+		7B0C905A19E88E2DBD0EB3BA /* MCSwipeTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSwipeTableViewCell.h; path = MCSwipeTableViewCell/MCSwipeTableViewCell.h; sourceTree = "<group>"; };
+		7B40DDB62AAC7F3B42B67472 /* PHFComposeBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PHFComposeBarView.m; path = Classes/PHFComposeBarView.m; sourceTree = "<group>"; };
+		7D45425507B04959E9F03FC8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		7D8697BF3FCC652F59D4BDCF /* Pods-audion-BFPaperTabBarController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-BFPaperTabBarController-Private.xcconfig"; sourceTree = "<group>"; };
+		82079FDEB83960481FEBC184 /* PHFComposeBarView_TextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PHFComposeBarView_TextView.h; path = Classes/PHFComposeBarView_TextView.h; sourceTree = "<group>"; };
+		850A7289562FAE4FAD8A5F0F /* PHFComposeBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PHFComposeBarView.h; path = Classes/PHFComposeBarView.h; sourceTree = "<group>"; };
+		8D9D57D61A8ACE96F4262DEF /* Pods-audion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-audion-dummy.m"; sourceTree = "<group>"; };
+		90FA2991680CBA4361D7A583 /* Pods-audion-PHFDelegateChain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-audion-PHFDelegateChain-dummy.m"; sourceTree = "<group>"; };
+		91992EF44DF8FD7175F92CB7 /* Pods-audion-DZNEmptyDataSet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-audion-DZNEmptyDataSet-dummy.m"; sourceTree = "<group>"; };
+		93AE6F0148D7DF2A21E099A8 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		9619FB9579DACD9CC3D934F4 /* Pods-audion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion.debug.xcconfig"; sourceTree = "<group>"; };
+		9BACF57AB9CD989768E1C86F /* Pods-audion-UIColor+BFPaperColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-audion-UIColor+BFPaperColors-dummy.m"; sourceTree = "<group>"; };
+		9C6C774D42B99E4475EC15A0 /* Pods-audion-SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-SVProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		9DDCC68EF9B41FF5F8F5FC18 /* Pods-audion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion.release.xcconfig"; sourceTree = "<group>"; };
+		9F8B470C05B101A68C8B362B /* SSPullToRefreshDefaultContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshDefaultContentView.m; path = SSPullToRefresh/SSPullToRefreshDefaultContentView.m; sourceTree = "<group>"; };
+		A1377C9723681791941F4D98 /* libPods-audion-BFPaperTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-audion-BFPaperTabBarController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C23021A8E961845460BD20 /* Pods-audion-PHFComposeBarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-audion-PHFComposeBarView-dummy.m"; sourceTree = "<group>"; };
+		A8D7B2B85537988867146B94 /* Pods-audion-SSPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-SSPullToRefresh.xcconfig"; sourceTree = "<group>"; };
+		A9CE0FB354B3A751941C1D92 /* Pods-audion-PHFComposeBarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-audion-PHFComposeBarView-prefix.pch"; sourceTree = "<group>"; };
+		AAA50EC71514353E571CE847 /* Pods-audion-SVPulsingAnnotationView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-SVPulsingAnnotationView-Private.xcconfig"; sourceTree = "<group>"; };
+		AC07D6CD11E84AE10EBA7A21 /* Pods-audion-DZNEmptyDataSet-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-DZNEmptyDataSet-Private.xcconfig"; sourceTree = "<group>"; };
+		B6D419C88FFEA1969E40A4F2 /* Pods-audion-UIColor+BFPaperColors-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-UIColor+BFPaperColors-Private.xcconfig"; sourceTree = "<group>"; };
+		B9CEA311292685FCB4DE4BCF /* Pods-audion-EECircularMusicPlayerControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-EECircularMusicPlayerControl.xcconfig"; sourceTree = "<group>"; };
+		BE5AC51C0DCCB9EFEBE76639 /* Pods-audion-BFPaperTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-audion-BFPaperTabBarController-dummy.m"; sourceTree = "<group>"; };
+		C1986820A898702FEA6E0057 /* Pods-audion-EECircularMusicPlayerControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-audion-EECircularMusicPlayerControl-prefix.pch"; sourceTree = "<group>"; };
+		C969991BF1148BD8FB8F8EC2 /* Pods-audion-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-audion-resources.sh"; sourceTree = "<group>"; };
+		CAEADB1F0FF952A4072718FE /* SVPulsingAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVPulsingAnnotationView.h; path = SVPulsingAnnotationView/SVPulsingAnnotationView.h; sourceTree = "<group>"; };
+		CCC55B3C3ACBFE278AB66616 /* PHFDelegateChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PHFDelegateChain.m; sourceTree = "<group>"; };
+		CD9B8B58DEBC8FB855A281AA /* Pods-audion-SSPullToRefresh-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-SSPullToRefresh-Private.xcconfig"; sourceTree = "<group>"; };
+		CEBD0AF959D991C589CC9ABB /* libPods-audion-NSDate+TimeAgo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-audion-NSDate+TimeAgo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDEFC33F489A83C401D5E72 /* Pods-audion-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-audion-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D42433EFCE490C6CE69AC203 /* BFPaperTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFPaperTabBarController.m; path = Classes/BFPaperTabBarController.m; sourceTree = "<group>"; };
+		D4482B28AD44943AC8EE4BB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D68034DB31B9FE505E4DBDA9 /* Pods-audion-PHFComposeBarView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-PHFComposeBarView-Private.xcconfig"; sourceTree = "<group>"; };
+		D80D02B8D5C7AB106E1EFC7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		D899D39016874647623222B6 /* PHFComposeBarView_TextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PHFComposeBarView_TextView.m; path = Classes/PHFComposeBarView_TextView.m; sourceTree = "<group>"; };
+		DF1E3793C98153B665FF7647 /* Pods-audion-NSDate+TimeAgo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-NSDate+TimeAgo.xcconfig"; sourceTree = "<group>"; };
+		E0C5CB89BF94D27DA344E5F8 /* libPods-audion-UIColor+BFPaperColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-audion-UIColor+BFPaperColors.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28105345DC76183117BD65C /* BFPaperTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFPaperTabBarController.h; path = Classes/BFPaperTabBarController.h; sourceTree = "<group>"; };
+		E36303C8ED514EE0E33510B0 /* PHFDelegateChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PHFDelegateChain.h; sourceTree = "<group>"; };
+		E3741EFFA47B04FC21A0C812 /* PHFComposeBarView_Button.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PHFComposeBarView_Button.m; path = Classes/PHFComposeBarView_Button.m; sourceTree = "<group>"; };
+		E962B4A0182E9B0EE7CD80BF /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Source/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		EAA0361899790998C2D4476A /* libPods-audion-MCSwipeTableViewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-audion-MCSwipeTableViewCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB533081E2269B725CC6A00B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		EDBC3FC376ADDE847C553B74 /* EECircularMusicPlayerControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EECircularMusicPlayerControl.h; path = EECircularMusicPlayerControl/EECircularMusicPlayerControl.h; sourceTree = "<group>"; };
+		EEA39129B665BE7251B99FB5 /* PHFComposeBarView_Button.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PHFComposeBarView_Button.h; path = Classes/PHFComposeBarView_Button.h; sourceTree = "<group>"; };
+		EFB5B7DB76C3BB5C0B8711DE /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BFPaperColors.m"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
+		EFE58E0423707EBAEBB348CB /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F056EDC0373FB020432067F7 /* libPods-audion-DZNEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-audion-DZNEmptyDataSet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FBA227F6D780E261B64759 /* Pods-audion-PHFComposeBarView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-PHFComposeBarView.xcconfig"; sourceTree = "<group>"; };
+		F4F8972440F031009CD8D0B2 /* libPods-audion-SVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-audion-SVProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68FD9F04AD66C6E9FEDD160 /* SSPullToRefreshView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshView.m; path = SSPullToRefresh/SSPullToRefreshView.m; sourceTree = "<group>"; };
+		F7259E6942E0E681AB705439 /* Pods-audion-MCSwipeTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-MCSwipeTableViewCell.xcconfig"; sourceTree = "<group>"; };
+		F7CF8FD7F1A2121AFB50D793 /* Pods-audion-SVPulsingAnnotationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-audion-SVPulsingAnnotationView-dummy.m"; sourceTree = "<group>"; };
+		F8A8F1BC558498D3F6750D23 /* Pods-audion-NSDate+TimeAgo-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-NSDate+TimeAgo-Private.xcconfig"; sourceTree = "<group>"; };
+		FB3A90E272249056FF3715B4 /* Pods-audion-MCSwipeTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-audion-MCSwipeTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		FBEC74FBC484ED49BE921BEC /* Pods-audion-NSDate+TimeAgo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-audion-NSDate+TimeAgo-dummy.m"; sourceTree = "<group>"; };
+		FD570C81C48EF4EE7DBB6172 /* Pods-audion-NSDate+TimeAgo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-audion-NSDate+TimeAgo-prefix.pch"; sourceTree = "<group>"; };
+		FEDAE3636100F2C723FE4E98 /* Pods-audion-SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-audion-SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		FEEDF12FC28D57F22F2A9A4D /* Pods-audion-PHFDelegateChain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-PHFDelegateChain.xcconfig"; sourceTree = "<group>"; };
+		FFAAA7803477B047CF7ADFE1 /* Pods-audion-MCSwipeTableViewCell-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-audion-MCSwipeTableViewCell-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		301723DAE5EAB13D352EBF89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF0BD1A173981E2C32CAB77 /* Foundation.framework in Frameworks */,
+				0FAB10833F83C16C0BBE5774 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5860D4C819C0FD5C59927FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DF27149AB268CD263ECD46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657BBBE4DA4293A2053C2B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EF563A06565D55614EB910 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A93891BC08028B98A8191F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDDF2F61FFF47369CDB60D7 /* CoreGraphics.framework in Frameworks */,
+				D79E0BD0B64A887075234E5C /* Foundation.framework in Frameworks */,
+				CA83B6CE7D158F84719237EE /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70413887649785FE47952A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CDCE11CDB62238529DE459 /* Foundation.framework in Frameworks */,
+				864CE79F22AF9FF831129844 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724B4C56F89B0E5EF140AFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8EA3AB30AF30FA6805C029 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743F071950E373E4A771CF57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7296D3AD99CE67C98EAD1478 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750715BCFD834BC0ED644D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBD7725AD7049205046CD20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96742FB78EB3FD0F35ACC2B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AE3F271AE60C5432251226 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77F8858C98946DE4098AA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEF3C01B1C81DD09FE735EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9094A09E9469334F22219FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF14E8506A73574C8F99AED /* Foundation.framework in Frameworks */,
+				61E9B8EF660BE49898F3FFBE /* MapKit.framework in Frameworks */,
+				C2F8BD53A100BF7EF337E9DB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12062D370D9238D00F07E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEC98A2ACB1E8F0B5685D57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099B59A06FD72C8DF9EAB0AF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88F72D1ED7506DF89A8FEDE4 /* Pods-audion */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0A0C263097EAEA946D44B0E3 /* PHFDelegateChain */ = {
+			isa = PBXGroup;
+			children = (
+				E36303C8ED514EE0E33510B0 /* PHFDelegateChain.h */,
+				CCC55B3C3ACBFE278AB66616 /* PHFDelegateChain.m */,
+				9D004BA593E91E06B84E3CEE /* Support Files */,
+			);
+			path = PHFDelegateChain;
+			sourceTree = "<group>";
+		};
+		25D245364FB74EFEB5FFD65C /* UIColor+BFPaperColors */ = {
+			isa = PBXGroup;
+			children = (
+				4FEDEFE82BD3C8A57941E51E /* UIColor+BFPaperColors.h */,
+				EFB5B7DB76C3BB5C0B8711DE /* UIColor+BFPaperColors.m */,
+				43FE8FBDECEF128CB80DF373 /* Support Files */,
+			);
+			path = "UIColor+BFPaperColors";
+			sourceTree = "<group>";
+		};
+		28137029043814C6262CCB97 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8D7B2B85537988867146B94 /* Pods-audion-SSPullToRefresh.xcconfig */,
+				CD9B8B58DEBC8FB855A281AA /* Pods-audion-SSPullToRefresh-Private.xcconfig */,
+				1EE966693F357BC78E23095B /* Pods-audion-SSPullToRefresh-dummy.m */,
+				74F8C8ACC8202C85353BCA23 /* Pods-audion-SSPullToRefresh-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-audion-SSPullToRefresh";
+			sourceTree = "<group>";
+		};
+		303E9192BA6646BB34C0F8C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9CEA311292685FCB4DE4BCF /* Pods-audion-EECircularMusicPlayerControl.xcconfig */,
+				2110ED6B0EFA7ADEC1E1C62B /* Pods-audion-EECircularMusicPlayerControl-Private.xcconfig */,
+				266B9A7415C0D3CFC281C306 /* Pods-audion-EECircularMusicPlayerControl-dummy.m */,
+				C1986820A898702FEA6E0057 /* Pods-audion-EECircularMusicPlayerControl-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-audion-EECircularMusicPlayerControl";
+			sourceTree = "<group>";
+		};
+		35E96B3B9FFE1EA49F8A539A /* MCSwipeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7B0C905A19E88E2DBD0EB3BA /* MCSwipeTableViewCell.h */,
+				1D8B5D9093C0A67CB3328AC5 /* MCSwipeTableViewCell.m */,
+				9B6F3869A9C924BC5C555B34 /* Support Files */,
+			);
+			path = MCSwipeTableViewCell;
+			sourceTree = "<group>";
+		};
+		3AE75C6607594879C64B281F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1FBA227F6D780E261B64759 /* Pods-audion-PHFComposeBarView.xcconfig */,
+				D68034DB31B9FE505E4DBDA9 /* Pods-audion-PHFComposeBarView-Private.xcconfig */,
+				A7C23021A8E961845460BD20 /* Pods-audion-PHFComposeBarView-dummy.m */,
+				A9CE0FB354B3A751941C1D92 /* Pods-audion-PHFComposeBarView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-audion-PHFComposeBarView";
+			sourceTree = "<group>";
+		};
+		43FE8FBDECEF128CB80DF373 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AE95CF81400B5EDB02E8B6D /* Pods-audion-UIColor+BFPaperColors.xcconfig */,
+				B6D419C88FFEA1969E40A4F2 /* Pods-audion-UIColor+BFPaperColors-Private.xcconfig */,
+				9BACF57AB9CD989768E1C86F /* Pods-audion-UIColor+BFPaperColors-dummy.m */,
+				50D5476C1A9F03C51935E683 /* Pods-audion-UIColor+BFPaperColors-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-audion-UIColor+BFPaperColors";
+			sourceTree = "<group>";
+		};
+		447BCE4A937CA97274DDF12C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3096AF9BE9A793E35E8E72FD /* libPods-audion.a */,
+				A1377C9723681791941F4D98 /* libPods-audion-BFPaperTabBarController.a */,
+				F056EDC0373FB020432067F7 /* libPods-audion-DZNEmptyDataSet.a */,
+				01742CA0D7FD330A7F711CF5 /* libPods-audion-EECircularMusicPlayerControl.a */,
+				EAA0361899790998C2D4476A /* libPods-audion-MCSwipeTableViewCell.a */,
+				CEBD0AF959D991C589CC9ABB /* libPods-audion-NSDate+TimeAgo.a */,
+				474FAA814E3EA0B7393C25CA /* libPods-audion-PHFComposeBarView.a */,
+				6EDC5B2F467CE7C9F1A5AD64 /* libPods-audion-PHFDelegateChain.a */,
+				778A0D206A14CFE7B39229FD /* libPods-audion-SSPullToRefresh.a */,
+				F4F8972440F031009CD8D0B2 /* libPods-audion-SVProgressHUD.a */,
+				020F94DAF5CE297D0A659BB7 /* libPods-audion-SVPulsingAnnotationView.a */,
+				E0C5CB89BF94D27DA344E5F8 /* libPods-audion-UIColor+BFPaperColors.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45161D6443A1DAB49DF64B1B /* BFPaperTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				E28105345DC76183117BD65C /* BFPaperTabBarController.h */,
+				D42433EFCE490C6CE69AC203 /* BFPaperTabBarController.m */,
+				ECBC11443ABCC71E65F88522 /* Support Files */,
+			);
+			path = BFPaperTabBarController;
+			sourceTree = "<group>";
+		};
+		46CB91F1438521E8F37BB42A = {
+			isa = PBXGroup;
+			children = (
+				EFE58E0423707EBAEBB348CB /* Podfile */,
+				EE1A601CC21B8C7A8331A9EC /* Frameworks */,
+				4A595627F35588433679929F /* Pods */,
+				447BCE4A937CA97274DDF12C /* Products */,
+				099B59A06FD72C8DF9EAB0AF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4A595627F35588433679929F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45161D6443A1DAB49DF64B1B /* BFPaperTabBarController */,
+				EF532DBB5E0F98A50FF5C74D /* DZNEmptyDataSet */,
+				53B9CBC23D80A9D7F992E352 /* EECircularMusicPlayerControl */,
+				35E96B3B9FFE1EA49F8A539A /* MCSwipeTableViewCell */,
+				CC04D240424A8123B36F14F4 /* NSDate+TimeAgo */,
+				7262457541D523BDFDEB4CD9 /* PHFComposeBarView */,
+				0A0C263097EAEA946D44B0E3 /* PHFDelegateChain */,
+				4E6D65E57B8A24F0D7CE690B /* SSPullToRefresh */,
+				D70728DD35A0F719A94780B0 /* SVProgressHUD */,
+				7039FA846BF7ADB4192627CC /* SVPulsingAnnotationView */,
+				25D245364FB74EFEB5FFD65C /* UIColor+BFPaperColors */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E6D65E57B8A24F0D7CE690B /* SSPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				6F98C59E8F134A27F87542D1 /* SSPullToRefresh.h */,
+				39DA4738223F114B006C0739 /* SSPullToRefreshDefaultContentView.h */,
+				9F8B470C05B101A68C8B362B /* SSPullToRefreshDefaultContentView.m */,
+				625783FC18499E76ADF1D2BD /* SSPullToRefreshSimpleContentView.h */,
+				0FE4159DC1DFE08CBD45532C /* SSPullToRefreshSimpleContentView.m */,
+				61F0CF79EDAEDBD63DE1851F /* SSPullToRefreshView.h */,
+				F68FD9F04AD66C6E9FEDD160 /* SSPullToRefreshView.m */,
+				28137029043814C6262CCB97 /* Support Files */,
+			);
+			path = SSPullToRefresh;
+			sourceTree = "<group>";
+		};
+		53B9CBC23D80A9D7F992E352 /* EECircularMusicPlayerControl */ = {
+			isa = PBXGroup;
+			children = (
+				EDBC3FC376ADDE847C553B74 /* EECircularMusicPlayerControl.h */,
+				1C5BB470065B4D69C8A908E4 /* EECircularMusicPlayerControl.m */,
+				06D235FA128EB79430A30011 /* EECircularMusicPlayerDACircularProgressView.h */,
+				30DCEFE3457C2EFB75486234 /* EECircularMusicPlayerDACircularProgressView.m */,
+				303E9192BA6646BB34C0F8C1 /* Support Files */,
+			);
+			path = EECircularMusicPlayerControl;
+			sourceTree = "<group>";
+		};
+		7039FA846BF7ADB4192627CC /* SVPulsingAnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				CAEADB1F0FF952A4072718FE /* SVPulsingAnnotationView.h */,
+				3614E1E84A198DC16A0C4A5C /* SVPulsingAnnotationView.m */,
+				DF25B699C4596F33FA44E660 /* Support Files */,
+			);
+			path = SVPulsingAnnotationView;
+			sourceTree = "<group>";
+		};
+		7262457541D523BDFDEB4CD9 /* PHFComposeBarView */ = {
+			isa = PBXGroup;
+			children = (
+				850A7289562FAE4FAD8A5F0F /* PHFComposeBarView.h */,
+				7B40DDB62AAC7F3B42B67472 /* PHFComposeBarView.m */,
+				EEA39129B665BE7251B99FB5 /* PHFComposeBarView_Button.h */,
+				E3741EFFA47B04FC21A0C812 /* PHFComposeBarView_Button.m */,
+				82079FDEB83960481FEBC184 /* PHFComposeBarView_TextView.h */,
+				D899D39016874647623222B6 /* PHFComposeBarView_TextView.m */,
+				3AE75C6607594879C64B281F /* Support Files */,
+			);
+			path = PHFComposeBarView;
+			sourceTree = "<group>";
+		};
+		88F72D1ED7506DF89A8FEDE4 /* Pods-audion */ = {
+			isa = PBXGroup;
+			children = (
+				CFDEFC33F489A83C401D5E72 /* Pods-audion-acknowledgements.markdown */,
+				564C75381BF41143BBF11B72 /* Pods-audion-acknowledgements.plist */,
+				8D9D57D61A8ACE96F4262DEF /* Pods-audion-dummy.m */,
+				06687E7894C15DF10FD8CF02 /* Pods-audion-environment.h */,
+				C969991BF1148BD8FB8F8EC2 /* Pods-audion-resources.sh */,
+				9619FB9579DACD9CC3D934F4 /* Pods-audion.debug.xcconfig */,
+				9DDCC68EF9B41FF5F8F5FC18 /* Pods-audion.release.xcconfig */,
+			);
+			name = "Pods-audion";
+			path = "Target Support Files/Pods-audion";
+			sourceTree = "<group>";
+		};
+		8E5D781629C0B2648AE7544A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C6C774D42B99E4475EC15A0 /* Pods-audion-SVProgressHUD.xcconfig */,
+				61979E2C426FCE472811A76D /* Pods-audion-SVProgressHUD-Private.xcconfig */,
+				1D9FA37FC2CFA06101932457 /* Pods-audion-SVProgressHUD-dummy.m */,
+				FEDAE3636100F2C723FE4E98 /* Pods-audion-SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-audion-SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		966F6CF64DDDDA2E7BBD44C9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D80D02B8D5C7AB106E1EFC7E /* CoreGraphics.framework */,
+				D4482B28AD44943AC8EE4BB8 /* Foundation.framework */,
+				7D45425507B04959E9F03FC8 /* MapKit.framework */,
+				7A21673105D6B6FB39639EDC /* QuartzCore.framework */,
+				6446FFCD2E4B4817738BCC11 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B6F3869A9C924BC5C555B34 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7259E6942E0E681AB705439 /* Pods-audion-MCSwipeTableViewCell.xcconfig */,
+				FFAAA7803477B047CF7ADFE1 /* Pods-audion-MCSwipeTableViewCell-Private.xcconfig */,
+				FB3A90E272249056FF3715B4 /* Pods-audion-MCSwipeTableViewCell-dummy.m */,
+				38054A8B563714996DBDD75D /* Pods-audion-MCSwipeTableViewCell-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-audion-MCSwipeTableViewCell";
+			sourceTree = "<group>";
+		};
+		9D004BA593E91E06B84E3CEE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDF12FC28D57F22F2A9A4D /* Pods-audion-PHFDelegateChain.xcconfig */,
+				564AE53D4CCC0E19BF4CEE6D /* Pods-audion-PHFDelegateChain-Private.xcconfig */,
+				90FA2991680CBA4361D7A583 /* Pods-audion-PHFDelegateChain-dummy.m */,
+				1BCB1AECCF4E4ED282F110FB /* Pods-audion-PHFDelegateChain-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-audion-PHFDelegateChain";
+			sourceTree = "<group>";
+		};
+		AB360FE70488FFC2FB907FE8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				169F1AAB0D9C1262392DA155 /* NSDateTimeAgo.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CB7C9CDAB2B6C9ED3A56559D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0447E811CDAFA47F411BFCCC /* Pods-audion-DZNEmptyDataSet.xcconfig */,
+				AC07D6CD11E84AE10EBA7A21 /* Pods-audion-DZNEmptyDataSet-Private.xcconfig */,
+				91992EF44DF8FD7175F92CB7 /* Pods-audion-DZNEmptyDataSet-dummy.m */,
+				1DC354239BB509E520DC40C8 /* Pods-audion-DZNEmptyDataSet-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-audion-DZNEmptyDataSet";
+			sourceTree = "<group>";
+		};
+		CC04D240424A8123B36F14F4 /* NSDate+TimeAgo */ = {
+			isa = PBXGroup;
+			children = (
+				18D2144423A51B000F2929EF /* NSDate+TimeAgo.h */,
+				02E8123E70E26CD9EDBB7050 /* NSDate+TimeAgo.m */,
+				AB360FE70488FFC2FB907FE8 /* Resources */,
+				E76D3E996A937CBB8ABC74EE /* Support Files */,
+			);
+			path = "NSDate+TimeAgo";
+			sourceTree = "<group>";
+		};
+		D70728DD35A0F719A94780B0 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				93AE6F0148D7DF2A21E099A8 /* SVIndefiniteAnimatedView.h */,
+				53125FA4D0480E9F41B216F6 /* SVIndefiniteAnimatedView.m */,
+				4F636E9E933B5A7941E6239D /* SVProgressHUD.h */,
+				775944EBFAE3C69FB089EF93 /* SVProgressHUD.m */,
+				FC529EF5BD7212C1E8B5DFF0 /* Resources */,
+				8E5D781629C0B2648AE7544A /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		DF25B699C4596F33FA44E660 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41F8BD2ED634696DD4E4F8FB /* Pods-audion-SVPulsingAnnotationView.xcconfig */,
+				AAA50EC71514353E571CE847 /* Pods-audion-SVPulsingAnnotationView-Private.xcconfig */,
+				F7CF8FD7F1A2121AFB50D793 /* Pods-audion-SVPulsingAnnotationView-dummy.m */,
+				186CF8760EF95024FCF01F44 /* Pods-audion-SVPulsingAnnotationView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-audion-SVPulsingAnnotationView";
+			sourceTree = "<group>";
+		};
+		E76D3E996A937CBB8ABC74EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF1E3793C98153B665FF7647 /* Pods-audion-NSDate+TimeAgo.xcconfig */,
+				F8A8F1BC558498D3F6750D23 /* Pods-audion-NSDate+TimeAgo-Private.xcconfig */,
+				FBEC74FBC484ED49BE921BEC /* Pods-audion-NSDate+TimeAgo-dummy.m */,
+				FD570C81C48EF4EE7DBB6172 /* Pods-audion-NSDate+TimeAgo-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-audion-NSDate+TimeAgo";
+			sourceTree = "<group>";
+		};
+		ECBC11443ABCC71E65F88522 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AD948E239BC9D3BBA556012 /* Pods-audion-BFPaperTabBarController.xcconfig */,
+				7D8697BF3FCC652F59D4BDCF /* Pods-audion-BFPaperTabBarController-Private.xcconfig */,
+				BE5AC51C0DCCB9EFEBE76639 /* Pods-audion-BFPaperTabBarController-dummy.m */,
+				087677E3E3D82A018194B7CF /* Pods-audion-BFPaperTabBarController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-audion-BFPaperTabBarController";
+			sourceTree = "<group>";
+		};
+		EE1A601CC21B8C7A8331A9EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				966F6CF64DDDDA2E7BBD44C9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF532DBB5E0F98A50FF5C74D /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				E962B4A0182E9B0EE7CD80BF /* UIScrollView+EmptyDataSet.h */,
+				29507DB806254B7CA3E4BE63 /* UIScrollView+EmptyDataSet.m */,
+				CB7C9CDAB2B6C9ED3A56559D /* Support Files */,
+			);
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		FC529EF5BD7212C1E8B5DFF0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB533081E2269B725CC6A00B /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CAD308513F69C47878C6E42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3395A0C27DEBA19E8CFA97A3 /* PHFDelegateChain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C313A70A8108F66F6B6435 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2424EC40311603218E38B664 /* MCSwipeTableViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F441B4643648D918BCF41E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA29FDA536095420F1F9A4A1 /* UIColor+BFPaperColors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639CE316F7FDFECEC70FA5E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755A2B297A46A503D203A244 /* SVIndefiniteAnimatedView.h in Headers */,
+				DA271481DB62B273CD15576B /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85255A3C5BA83540081D24EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415EA3466C0C84A84E0E513C /* PHFComposeBarView.h in Headers */,
+				2223D6B026932C50EEC2927B /* PHFComposeBarView_Button.h in Headers */,
+				71724A93B9A73FA8B2F015E4 /* PHFComposeBarView_TextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25BADFD273672F45ADD5020 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3DF270F4E88B3C4EE266B5 /* UIScrollView+EmptyDataSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CC47F1C1608C4D42E6C38B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED63297D604BE3F8FAD15FC /* SVPulsingAnnotationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF33EC86E67081CF3D43CBA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD14BFF6E5999FE835A6C33 /* BFPaperTabBarController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3203B834745A24200F0A1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9490768CD86DC33CA15F69 /* SSPullToRefresh.h in Headers */,
+				ED68EEE3D9FBA0A660FE0D48 /* SSPullToRefreshDefaultContentView.h in Headers */,
+				9654A07A8C2BACDE41955A73 /* SSPullToRefreshSimpleContentView.h in Headers */,
+				C53FD0CC1BDDE07D5E017887 /* SSPullToRefreshView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFED60C1F838024E042276F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B456EFF6DA055DD9C03397 /* EECircularMusicPlayerControl.h in Headers */,
+				642740525F32F161804F0BC1 /* EECircularMusicPlayerDACircularProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B66D08894DEE26019E62C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE35E0DFE791C18242A4CAE /* NSDate+TimeAgo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AF3567904B9AB51516AEA8A /* Pods-audion-SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ECF5687FCB19C4CFFBED27B /* Build configuration list for PBXNativeTarget "Pods-audion-SVProgressHUD" */;
+			buildPhases = (
+				8CC27FF27435D90BAA6744A5 /* Sources */,
+				70413887649785FE47952A7F /* Frameworks */,
+				639CE316F7FDFECEC70FA5E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-audion-SVProgressHUD";
+			productName = "Pods-audion-SVProgressHUD";
+			productReference = F4F8972440F031009CD8D0B2 /* libPods-audion-SVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		194C776DAFAE50C19AC807F9 /* Pods-audion-EECircularMusicPlayerControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2852E99F215BB30AFD3DEE4 /* Build configuration list for PBXNativeTarget "Pods-audion-EECircularMusicPlayerControl" */;
+			buildPhases = (
+				7E08D5F8F6901905F9159B34 /* Sources */,
+				6A93891BC08028B98A8191F2 /* Frameworks */,
+				DFED60C1F838024E042276F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-audion-EECircularMusicPlayerControl";
+			productName = "Pods-audion-EECircularMusicPlayerControl";
+			productReference = 01742CA0D7FD330A7F711CF5 /* libPods-audion-EECircularMusicPlayerControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2A5B65D029B4551506BA0F6C /* Pods-audion-NSDate+TimeAgo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B974B99C0DB8363912526B /* Build configuration list for PBXNativeTarget "Pods-audion-NSDate+TimeAgo" */;
+			buildPhases = (
+				52F3F83E6BE70AFF58E9548A /* Sources */,
+				743F071950E373E4A771CF57 /* Frameworks */,
+				E7B66D08894DEE26019E62C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-audion-NSDate+TimeAgo";
+			productName = "Pods-audion-NSDate+TimeAgo";
+			productReference = CEBD0AF959D991C589CC9ABB /* libPods-audion-NSDate+TimeAgo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		37A101D95D70749029B975CA /* Pods-audion-MCSwipeTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF224003130A404459D2766D /* Build configuration list for PBXNativeTarget "Pods-audion-MCSwipeTableViewCell" */;
+			buildPhases = (
+				C4E047CD5F258FBA8AEE6B29 /* Sources */,
+				5860D4C819C0FD5C59927FF9 /* Frameworks */,
+				37C313A70A8108F66F6B6435 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-audion-MCSwipeTableViewCell";
+			productName = "Pods-audion-MCSwipeTableViewCell";
+			productReference = EAA0361899790998C2D4476A /* libPods-audion-MCSwipeTableViewCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		891875F5C248B79AF879D405 /* Pods-audion-DZNEmptyDataSet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DF93B46E830AF3D3DED965 /* Build configuration list for PBXNativeTarget "Pods-audion-DZNEmptyDataSet" */;
+			buildPhases = (
+				787DAA9B39005DF5904D2624 /* Sources */,
+				301723DAE5EAB13D352EBF89 /* Frameworks */,
+				A25BADFD273672F45ADD5020 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-audion-DZNEmptyDataSet";
+			productName = "Pods-audion-DZNEmptyDataSet";
+			productReference = F056EDC0373FB020432067F7 /* libPods-audion-DZNEmptyDataSet.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8D49341A797DAA9F18ADEF74 /* Pods-audion-UIColor+BFPaperColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BDB916F61DE58D02F51F76C /* Build configuration list for PBXNativeTarget "Pods-audion-UIColor+BFPaperColors" */;
+			buildPhases = (
+				64DBE001F01CEFB378453538 /* Sources */,
+				750715BCFD834BC0ED644D3D /* Frameworks */,
+				49F441B4643648D918BCF41E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-audion-UIColor+BFPaperColors";
+			productName = "Pods-audion-UIColor+BFPaperColors";
+			productReference = E0C5CB89BF94D27DA344E5F8 /* libPods-audion-UIColor+BFPaperColors.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A354C1F9649573B8255002D9 /* Pods-audion-PHFDelegateChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09847B3090FB2E1A032283B /* Build configuration list for PBXNativeTarget "Pods-audion-PHFDelegateChain" */;
+			buildPhases = (
+				89E63763EF37D0B1AE77D5F7 /* Sources */,
+				657BBBE4DA4293A2053C2B5A /* Frameworks */,
+				0CAD308513F69C47878C6E42 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-audion-PHFDelegateChain";
+			productName = "Pods-audion-PHFDelegateChain";
+			productReference = 6EDC5B2F467CE7C9F1A5AD64 /* libPods-audion-PHFDelegateChain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C6CB07C8999F746DDD77B68D /* Pods-audion-SVPulsingAnnotationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076976BE0EFE3C3C7EAE297B /* Build configuration list for PBXNativeTarget "Pods-audion-SVPulsingAnnotationView" */;
+			buildPhases = (
+				F95AB300D975D11F9E34045F /* Sources */,
+				C9094A09E9469334F22219FF /* Frameworks */,
+				C2CC47F1C1608C4D42E6C38B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-audion-SVPulsingAnnotationView";
+			productName = "Pods-audion-SVPulsingAnnotationView";
+			productReference = 020F94DAF5CE297D0A659BB7 /* libPods-audion-SVPulsingAnnotationView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C94D4975CB8644676D67F7DA /* Pods-audion-BFPaperTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47DAFBD7877045CC789F93BA /* Build configuration list for PBXNativeTarget "Pods-audion-BFPaperTabBarController" */;
+			buildPhases = (
+				E7917C72E01F4B253A66C020 /* Sources */,
+				C77F8858C98946DE4098AA0C /* Frameworks */,
+				CF33EC86E67081CF3D43CBA8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB8F316CED4C1F43E0C84FF4 /* PBXTargetDependency */,
+			);
+			name = "Pods-audion-BFPaperTabBarController";
+			productName = "Pods-audion-BFPaperTabBarController";
+			productReference = A1377C9723681791941F4D98 /* libPods-audion-BFPaperTabBarController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D90B84CD04A83A9BDC08475C /* Pods-audion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57E32BCBDA6941D4B9574EC /* Build configuration list for PBXNativeTarget "Pods-audion" */;
+			buildPhases = (
+				4B5E79DF9C1A79EBB95E5024 /* Sources */,
+				96742FB78EB3FD0F35ACC2B6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D270CC316305E20195BC7A /* PBXTargetDependency */,
+				FB2E585043F04FA659890224 /* PBXTargetDependency */,
+				C6B43A3A1E79DDE66B44D246 /* PBXTargetDependency */,
+				EDC241E8F35A7AAE011CBBBC /* PBXTargetDependency */,
+				9A4F1830E8458C8A5856A249 /* PBXTargetDependency */,
+				16D6C18A1737BB2F4A9644E7 /* PBXTargetDependency */,
+				53C1BD8D67E5FFB50D579121 /* PBXTargetDependency */,
+				34EA73751901764CAC4F50A1 /* PBXTargetDependency */,
+				1CA37DAA5AD72FCD51C21F70 /* PBXTargetDependency */,
+				B1DF7868D41C338E9BC0ED56 /* PBXTargetDependency */,
+				86B648A4FBB8D45FB356320F /* PBXTargetDependency */,
+			);
+			name = "Pods-audion";
+			productName = "Pods-audion";
+			productReference = 3096AF9BE9A793E35E8E72FD /* libPods-audion.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EF9E8628CD269DB2156A0223 /* Pods-audion-PHFComposeBarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F219332DC026F5482AA8170 /* Build configuration list for PBXNativeTarget "Pods-audion-PHFComposeBarView" */;
+			buildPhases = (
+				71FD6B3CD580462DFA397DB8 /* Sources */,
+				E12062D370D9238D00F07E5D /* Frameworks */,
+				85255A3C5BA83540081D24EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECAAD43B8FA6D7644A7D9B48 /* PBXTargetDependency */,
+			);
+			name = "Pods-audion-PHFComposeBarView";
+			productName = "Pods-audion-PHFComposeBarView";
+			productReference = 474FAA814E3EA0B7393C25CA /* libPods-audion-PHFComposeBarView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F2BDA76E0DE82D6527644FB6 /* Pods-audion-SSPullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1D06D46F6AAF0984CCC4A5 /* Build configuration list for PBXNativeTarget "Pods-audion-SSPullToRefresh" */;
+			buildPhases = (
+				39D8BAB3F1698E262D767CBB /* Sources */,
+				724B4C56F89B0E5EF140AFF4 /* Frameworks */,
+				DC3203B834745A24200F0A1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-audion-SSPullToRefresh";
+			productName = "Pods-audion-SSPullToRefresh";
+			productReference = 778A0D206A14CFE7B39229FD /* libPods-audion-SSPullToRefresh.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE80847484ECAFD83D97D0B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = E1371B44CDDA522C31485D73 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46CB91F1438521E8F37BB42A;
+			productRefGroup = 447BCE4A937CA97274DDF12C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90B84CD04A83A9BDC08475C /* Pods-audion */,
+				C94D4975CB8644676D67F7DA /* Pods-audion-BFPaperTabBarController */,
+				891875F5C248B79AF879D405 /* Pods-audion-DZNEmptyDataSet */,
+				194C776DAFAE50C19AC807F9 /* Pods-audion-EECircularMusicPlayerControl */,
+				37A101D95D70749029B975CA /* Pods-audion-MCSwipeTableViewCell */,
+				2A5B65D029B4551506BA0F6C /* Pods-audion-NSDate+TimeAgo */,
+				EF9E8628CD269DB2156A0223 /* Pods-audion-PHFComposeBarView */,
+				A354C1F9649573B8255002D9 /* Pods-audion-PHFDelegateChain */,
+				F2BDA76E0DE82D6527644FB6 /* Pods-audion-SSPullToRefresh */,
+				0AF3567904B9AB51516AEA8A /* Pods-audion-SVProgressHUD */,
+				C6CB07C8999F746DDD77B68D /* Pods-audion-SVPulsingAnnotationView */,
+				8D49341A797DAA9F18ADEF74 /* Pods-audion-UIColor+BFPaperColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39D8BAB3F1698E262D767CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7026D634843B63931E70F761 /* Pods-audion-SSPullToRefresh-dummy.m in Sources */,
+				D3A1659869EC0DA005E68745 /* SSPullToRefreshDefaultContentView.m in Sources */,
+				96BDA909D2A4A7BBA186BED3 /* SSPullToRefreshSimpleContentView.m in Sources */,
+				930DD70060772A0AC2487712 /* SSPullToRefreshView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5E79DF9C1A79EBB95E5024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E2D69DD37E7C85F14E97B8 /* Pods-audion-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F3F83E6BE70AFF58E9548A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4CF94E530AF1BE6499E183 /* NSDate+TimeAgo.m in Sources */,
+				A541BE84F184B80D10DC11B7 /* Pods-audion-NSDate+TimeAgo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64DBE001F01CEFB378453538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB7F44C8D2D4E9C25208821 /* Pods-audion-UIColor+BFPaperColors-dummy.m in Sources */,
+				E9C8247B0C032456901291F0 /* UIColor+BFPaperColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FD6B3CD580462DFA397DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410689B9A45642025494B011 /* PHFComposeBarView.m in Sources */,
+				722B53E80ED52AD92CB55D0B /* PHFComposeBarView_Button.m in Sources */,
+				9CA65780DADA9F3A96D34269 /* PHFComposeBarView_TextView.m in Sources */,
+				B2D8D68FA7CBFB049C110355 /* Pods-audion-PHFComposeBarView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787DAA9B39005DF5904D2624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1756BD7DE25C7687711DE2FC /* Pods-audion-DZNEmptyDataSet-dummy.m in Sources */,
+				A49EBF50AF061CF8BF8BE287 /* UIScrollView+EmptyDataSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E08D5F8F6901905F9159B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B079237BE0D61259A1E58EEA /* EECircularMusicPlayerControl.m in Sources */,
+				B3943D2DAFF1A9E61C78254C /* EECircularMusicPlayerDACircularProgressView.m in Sources */,
+				23E6D0D3E3AB46D0588AC077 /* Pods-audion-EECircularMusicPlayerControl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E63763EF37D0B1AE77D5F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204FF225F6B34E3427F1A258 /* PHFDelegateChain.m in Sources */,
+				EF6CCF991C9A1F143D350109 /* Pods-audion-PHFDelegateChain-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC27FF27435D90BAA6744A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A084E3062300BABE75E0655A /* Pods-audion-SVProgressHUD-dummy.m in Sources */,
+				2E2CBC2C384FC72F2AF36AD6 /* SVIndefiniteAnimatedView.m in Sources */,
+				EFEB8D4022E245D10C08143E /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E047CD5F258FBA8AEE6B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4CF25922AA9E88EE096F6C /* MCSwipeTableViewCell.m in Sources */,
+				30346144D7F45C191063B252 /* Pods-audion-MCSwipeTableViewCell-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7917C72E01F4B253A66C020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D17888D9FE2F159D3CF3C4 /* BFPaperTabBarController.m in Sources */,
+				1BCC800A432F83BB8D0838FD /* Pods-audion-BFPaperTabBarController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95AB300D975D11F9E34045F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61966E2B7D6B707B5D8F53BA /* Pods-audion-SVPulsingAnnotationView-dummy.m in Sources */,
+				BD17768CAA691BF80919A1E9 /* SVPulsingAnnotationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16D6C18A1737BB2F4A9644E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-audion-PHFComposeBarView";
+			target = EF9E8628CD269DB2156A0223 /* Pods-audion-PHFComposeBarView */;
+			targetProxy = FE2C79E48E8753DC1D2A9263 /* PBXContainerItemProxy */;
+		};
+		1CA37DAA5AD72FCD51C21F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-audion-SVProgressHUD";
+			target = 0AF3567904B9AB51516AEA8A /* Pods-audion-SVProgressHUD */;
+			targetProxy = D410A00429752D979D070C6C /* PBXContainerItemProxy */;
+		};
+		34EA73751901764CAC4F50A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-audion-SSPullToRefresh";
+			target = F2BDA76E0DE82D6527644FB6 /* Pods-audion-SSPullToRefresh */;
+			targetProxy = BA6F2F21D1F9BC988655E292 /* PBXContainerItemProxy */;
+		};
+		53C1BD8D67E5FFB50D579121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-audion-PHFDelegateChain";
+			target = A354C1F9649573B8255002D9 /* Pods-audion-PHFDelegateChain */;
+			targetProxy = 3B3B0F42051572E774458DE1 /* PBXContainerItemProxy */;
+		};
+		86B648A4FBB8D45FB356320F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-audion-UIColor+BFPaperColors";
+			target = 8D49341A797DAA9F18ADEF74 /* Pods-audion-UIColor+BFPaperColors */;
+			targetProxy = CB2702FFA97A710F4E2EE7EA /* PBXContainerItemProxy */;
+		};
+		98D270CC316305E20195BC7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-audion-BFPaperTabBarController";
+			target = C94D4975CB8644676D67F7DA /* Pods-audion-BFPaperTabBarController */;
+			targetProxy = 4B703D3FCB33CD84B436CC35 /* PBXContainerItemProxy */;
+		};
+		9A4F1830E8458C8A5856A249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-audion-NSDate+TimeAgo";
+			target = 2A5B65D029B4551506BA0F6C /* Pods-audion-NSDate+TimeAgo */;
+			targetProxy = 2830CA3BA897CA6B1C7B1DC9 /* PBXContainerItemProxy */;
+		};
+		AB8F316CED4C1F43E0C84FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-audion-UIColor+BFPaperColors";
+			target = 8D49341A797DAA9F18ADEF74 /* Pods-audion-UIColor+BFPaperColors */;
+			targetProxy = ABEAF143E02BC0D5B0F14D39 /* PBXContainerItemProxy */;
+		};
+		B1DF7868D41C338E9BC0ED56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-audion-SVPulsingAnnotationView";
+			target = C6CB07C8999F746DDD77B68D /* Pods-audion-SVPulsingAnnotationView */;
+			targetProxy = 805F075491DDE1A7985D7BB9 /* PBXContainerItemProxy */;
+		};
+		C6B43A3A1E79DDE66B44D246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-audion-EECircularMusicPlayerControl";
+			target = 194C776DAFAE50C19AC807F9 /* Pods-audion-EECircularMusicPlayerControl */;
+			targetProxy = ADABF4A93C33A6C6F33DC882 /* PBXContainerItemProxy */;
+		};
+		ECAAD43B8FA6D7644A7D9B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-audion-PHFDelegateChain";
+			target = A354C1F9649573B8255002D9 /* Pods-audion-PHFDelegateChain */;
+			targetProxy = 2634B31A090DED85E7565B67 /* PBXContainerItemProxy */;
+		};
+		EDC241E8F35A7AAE011CBBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-audion-MCSwipeTableViewCell";
+			target = 37A101D95D70749029B975CA /* Pods-audion-MCSwipeTableViewCell */;
+			targetProxy = B1B5A8D5D3EAFC63C724DE2E /* PBXContainerItemProxy */;
+		};
+		FB2E585043F04FA659890224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-audion-DZNEmptyDataSet";
+			target = 891875F5C248B79AF879D405 /* Pods-audion-DZNEmptyDataSet */;
+			targetProxy = CB4990D3AA5B9771DCF66493 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02AF2982A3CC09361CF738E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2110ED6B0EFA7ADEC1E1C62B /* Pods-audion-EECircularMusicPlayerControl-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-EECircularMusicPlayerControl/Pods-audion-EECircularMusicPlayerControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		093AEDCFEDB1B42781A47249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDCC68EF9B41FF5F8F5FC18 /* Pods-audion.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		10AB2ED1349626B5F1471B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A8F1BC558498D3F6750D23 /* Pods-audion-NSDate+TimeAgo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-NSDate+TimeAgo/Pods-audion-NSDate+TimeAgo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		11EDC022E7CE876553C56513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFAAA7803477B047CF7ADFE1 /* Pods-audion-MCSwipeTableViewCell-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-MCSwipeTableViewCell/Pods-audion-MCSwipeTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		198D663FD46C02FBDA4B5A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA50EC71514353E571CE847 /* Pods-audion-SVPulsingAnnotationView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-SVPulsingAnnotationView/Pods-audion-SVPulsingAnnotationView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		39D5D90A2F954606349C34F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D419C88FFEA1969E40A4F2 /* Pods-audion-UIColor+BFPaperColors-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-UIColor+BFPaperColors/Pods-audion-UIColor+BFPaperColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3BC3F0D2000FD3ACEEEEC4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9B8B58DEBC8FB855A281AA /* Pods-audion-SSPullToRefresh-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-SSPullToRefresh/Pods-audion-SSPullToRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6342EF0C9FF51A00818C6286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D8697BF3FCC652F59D4BDCF /* Pods-audion-BFPaperTabBarController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-BFPaperTabBarController/Pods-audion-BFPaperTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6919508F7045E538ED615BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		69844B56107CA84C6615AF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61979E2C426FCE472811A76D /* Pods-audion-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-SVProgressHUD/Pods-audion-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		76F0D7F17C2F8D815284992A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D419C88FFEA1969E40A4F2 /* Pods-audion-UIColor+BFPaperColors-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-UIColor+BFPaperColors/Pods-audion-UIColor+BFPaperColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		77764C682F5623BEF691BEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9619FB9579DACD9CC3D934F4 /* Pods-audion.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		778F5DDD0FE889992B5F3DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		865D570CF66FDDE5C229D7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61979E2C426FCE472811A76D /* Pods-audion-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-SVProgressHUD/Pods-audion-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D0CA6F2EF26E6305FD15239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564AE53D4CCC0E19BF4CEE6D /* Pods-audion-PHFDelegateChain-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-PHFDelegateChain/Pods-audion-PHFDelegateChain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		918D23C6A85A8ED0A3F4C046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D68034DB31B9FE505E4DBDA9 /* Pods-audion-PHFComposeBarView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-PHFComposeBarView/Pods-audion-PHFComposeBarView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		94316856455C8335F4B301C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564AE53D4CCC0E19BF4CEE6D /* Pods-audion-PHFDelegateChain-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-PHFDelegateChain/Pods-audion-PHFDelegateChain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9EAF2A425B3CC14A04CF93BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9B8B58DEBC8FB855A281AA /* Pods-audion-SSPullToRefresh-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-SSPullToRefresh/Pods-audion-SSPullToRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B97AC8CDBDBCEED504AB5E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC07D6CD11E84AE10EBA7A21 /* Pods-audion-DZNEmptyDataSet-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-DZNEmptyDataSet/Pods-audion-DZNEmptyDataSet-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B986FFCC09868AA43470B43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D68034DB31B9FE505E4DBDA9 /* Pods-audion-PHFComposeBarView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-PHFComposeBarView/Pods-audion-PHFComposeBarView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C815F4FD9B3677AF48A10487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFAAA7803477B047CF7ADFE1 /* Pods-audion-MCSwipeTableViewCell-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-MCSwipeTableViewCell/Pods-audion-MCSwipeTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DDF96BA7F363F3473B17986E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D8697BF3FCC652F59D4BDCF /* Pods-audion-BFPaperTabBarController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-BFPaperTabBarController/Pods-audion-BFPaperTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DE1D25324DABF790FC8C13F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A8F1BC558498D3F6750D23 /* Pods-audion-NSDate+TimeAgo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-NSDate+TimeAgo/Pods-audion-NSDate+TimeAgo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DEC834ACE97FE9D71E976F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2110ED6B0EFA7ADEC1E1C62B /* Pods-audion-EECircularMusicPlayerControl-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-EECircularMusicPlayerControl/Pods-audion-EECircularMusicPlayerControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F0C7394CABD83B156B8A5B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC07D6CD11E84AE10EBA7A21 /* Pods-audion-DZNEmptyDataSet-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-DZNEmptyDataSet/Pods-audion-DZNEmptyDataSet-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F9228C52ADB77D6B656E204E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA50EC71514353E571CE847 /* Pods-audion-SVPulsingAnnotationView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-audion-SVPulsingAnnotationView/Pods-audion-SVPulsingAnnotationView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		076976BE0EFE3C3C7EAE297B /* Build configuration list for PBXNativeTarget "Pods-audion-SVPulsingAnnotationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9228C52ADB77D6B656E204E /* Debug */,
+				198D663FD46C02FBDA4B5A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ECF5687FCB19C4CFFBED27B /* Build configuration list for PBXNativeTarget "Pods-audion-SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865D570CF66FDDE5C229D7D3 /* Debug */,
+				69844B56107CA84C6615AF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47DAFBD7877045CC789F93BA /* Build configuration list for PBXNativeTarget "Pods-audion-BFPaperTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF96BA7F363F3473B17986E /* Debug */,
+				6342EF0C9FF51A00818C6286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BDB916F61DE58D02F51F76C /* Build configuration list for PBXNativeTarget "Pods-audion-UIColor+BFPaperColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F0D7F17C2F8D815284992A /* Debug */,
+				39D5D90A2F954606349C34F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F219332DC026F5482AA8170 /* Build configuration list for PBXNativeTarget "Pods-audion-PHFComposeBarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B986FFCC09868AA43470B43A /* Debug */,
+				918D23C6A85A8ED0A3F4C046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B974B99C0DB8363912526B /* Build configuration list for PBXNativeTarget "Pods-audion-NSDate+TimeAgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AB2ED1349626B5F1471B5D /* Debug */,
+				DE1D25324DABF790FC8C13F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57E32BCBDA6941D4B9574EC /* Build configuration list for PBXNativeTarget "Pods-audion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77764C682F5623BEF691BEC1 /* Debug */,
+				093AEDCFEDB1B42781A47249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1D06D46F6AAF0984CCC4A5 /* Build configuration list for PBXNativeTarget "Pods-audion-SSPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC3F0D2000FD3ACEEEEC4B6 /* Debug */,
+				9EAF2A425B3CC14A04CF93BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF224003130A404459D2766D /* Build configuration list for PBXNativeTarget "Pods-audion-MCSwipeTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C815F4FD9B3677AF48A10487 /* Debug */,
+				11EDC022E7CE876553C56513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09847B3090FB2E1A032283B /* Build configuration list for PBXNativeTarget "Pods-audion-PHFDelegateChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94316856455C8335F4B301C0 /* Debug */,
+				8D0CA6F2EF26E6305FD15239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2852E99F215BB30AFD3DEE4 /* Build configuration list for PBXNativeTarget "Pods-audion-EECircularMusicPlayerControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AF2982A3CC09361CF738E4 /* Debug */,
+				DEC834ACE97FE9D71E976F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DF93B46E830AF3D3DED965 /* Build configuration list for PBXNativeTarget "Pods-audion-DZNEmptyDataSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97AC8CDBDBCEED504AB5E63 /* Debug */,
+				F0C7394CABD83B156B8A5B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1371B44CDDA522C31485D73 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6919508F7045E538ED615BE6 /* Debug */,
+				778F5DDD0FE889992B5F3DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE80847484ECAFD83D97D0B0 /* Project object */;
+}
